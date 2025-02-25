@@ -55,3 +55,25 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 2. **چگونه می‌توان حجم باندل را در پروژه‌ای با بیش از ۵۰ صفحه مدیریت کرد؟**
 
 ---
+
+# **🌍 Questions in English**
+
+## **🔰 [Intermediate](#-questions-in-persian) Level**
+
+✅ These questions are designed for developers familiar with Next.js and looking to strengthen their skills.
+
+### **🟢 Next.js Core**
+
+1. **What is Next.js, and what are its key features?**
+2. **How does Next.js improve performance compared to traditional React apps?**
+3. **What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
+4. **What is Incremental Static Regeneration (ISR), and how does it work?**
+5. **How do you create a new page in Next.js?**
+
+### **⚡ Performance**
+
+1. **How can you optimize a Next.js application?**
+2. **What caching strategies are used in the browser?**
+3. **How do you optimize images in Next.js?**
+
+---
