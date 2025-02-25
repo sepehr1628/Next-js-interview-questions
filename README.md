@@ -94,3 +94,11 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 2. **How can bundle size be optimized in a Next.js project with more than 50 pages?**
 
 ---
+
+## **📌 Contributing to the Project**
+
+✅ If you have a new question, feel free to submit a **Pull Request** or open a **New Issue**.  
+✅ Any edits or suggestions are welcome!  
+✅ Follow this repository to stay updated with the latest questions.
+
+💡 **GitHub Repository:** ["https://github.com/sepehr1628/Next-js-interview-questions"]
