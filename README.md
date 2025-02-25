@@ -38,3 +38,20 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 3. **چگونه می‌توان تصاویر را در Next.js بهینه کرد؟**
 
 ---
+
+## **🚀 [Advanced](#-questions-in-english-advanced) Level**
+
+✅ These questions are for developers aiming for a **Senior Next.js Developer** position.
+
+### **🟢 Next.js Core**
+
+1. **چگونه می‌توان یک سیستم طراحی برای کامپوننت‌های Next.js ایجاد کرد؟**
+2. **چگونه `React Server Components (RSC)` در Next.js کار می‌کند؟**
+3. **چرا باید از `"use server"` در سرور اکشن‌ها استفاده کرد؟**
+
+### **⚡ Performance**
+
+1. **چگونه باید کش مرورگر و Service Worker را مدیریت کرد؟**
+2. **چگونه می‌توان حجم باندل را در پروژه‌ای با بیش از ۵۰ صفحه مدیریت کرد؟**
+
+---
