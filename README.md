@@ -141,6 +141,7 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 ✅ If you have a new question, feel free to submit a **Pull Request** or open a **New Issue**.  
 ✅ Any edits or suggestions are welcome!  
-✅ Follow this repository to stay updated with the latest questions.
+✅ Star this repository to stay updated with the latest questions.
 
-💡 **GitHub Repository:** [https://github.com/sepehr1628/Next-js-interview-questions]
+💡 **GitHub Repository:** https://github.com/sepehr1628/Next-js-interview-questions
+💡 **Author contact:** Sepehr1628@gmail.com
