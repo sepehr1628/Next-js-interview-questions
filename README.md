@@ -16,3 +16,25 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 - **🛡️ Security** – Security practices and preventing attacks
 
 ---
+
+# **📝 Questions in Persian**
+
+## **🔰 [Intermediate](#-questions-in-english-intermediate) Level**
+
+✅ These questions are for developers familiar with Next.js who want to strengthen their skills.
+
+### **🟢 Next.js Core**
+
+1. **Next.js چیست و چه ویژگی‌هایی دارد؟**
+2. **چگونه Next.js عملکرد بهتری نسبت به React سنتی ارائه می‌دهد؟**
+3. **تفاوت بین Static Site Generation (SSG) و Server-Side Rendering (SSR) چیست؟**
+4. **Incremental Static Regeneration (ISR) چیست و چگونه کار می‌کند؟**
+5. **چگونه یک صفحه جدید در Next.js ایجاد می‌شود؟**
+
+### **⚡ Performance**
+
+1. **چگونه می‌توان عملکرد یک اپلیکیشن Next.js را بهبود داد؟**
+2. **چه استراتژی‌هایی برای کش کردن داده‌ها در مرورگر وجود دارد؟**
+3. **چگونه می‌توان تصاویر را در Next.js بهینه کرد؟**
+
+---
