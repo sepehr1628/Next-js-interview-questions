@@ -53,6 +53,27 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 1. **چگونه باید کش مرورگر و Service Worker را مدیریت کرد؟**
 2. **چگونه می‌توان حجم باندل را در پروژه‌ای با بیش از ۵۰ صفحه مدیریت کرد؟**
+3. **چه الگوهای رندرینگ در React وجود دارد و برای چه مواردی مناسب هستند؟**
+4. **اگر در فرانت‌اند تعداد چت‌های یک سیستم به ۱۰۰۰ عدد برسد، چگونه باید آن‌ها را رندر کرد که صفحه laggy نشود؟**
+
+### **🔐 Authentication & Authorization**
+
+1. **چه سیستم احراز هویتی برای کلاینت می‌توان پیاده‌سازی کرد؟**
+2. **چگونه باید توکن و رفرش توکن را مدیریت کرد؟**
+3. **چه استراتژی‌هایی برای مدیریت Role-based access control (RBAC) در صفحات وجود دارد؟**
+4. **چه سیاستی برای Retry کردن درخواست‌های API باید داشته باشیم؟**
+
+### **💾 State Management**
+
+1. **چگونه می‌توان تغییرات state صفحه را با یک شخص دیگر به اشتراک گذاشت؟**
+2. **چگونه می‌توان داده‌های Local Storage، Session Storage، IndexDB و Cache را بهینه مدیریت کرد؟**
+3. **Broadcast Channel API چیست و چه کاربردی دارد؟**
+
+### **🛡️ Security**
+
+1. **چگونه می‌توان از حملات CSRF و XSS جلوگیری کرد؟**
+2. **چه flag‌هایی هنگام ست کردن کوکی اهمیت دارند؟ (`SameSite`, `HttpOnly`, `Secure`)**
+3. **آیا می‌توان کوکی را از سمت سرور ست کرد؟ چرا و چگونه؟**
 
 ---
 
@@ -92,6 +113,27 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 1. **How should browser caching and Service Worker caching be handled?**
 2. **How can bundle size be optimized in a Next.js project with more than 50 pages?**
+3. **What rendering patterns exist in React, and when should each be used?**
+4. **How do you efficiently render a chat application when the number of messages reaches 1000+ without performance issues?**
+
+### **🔐 Authentication & Authorization**
+
+1. **What authentication system can be implemented for a client-side app?**
+2. **How should access tokens and refresh tokens be managed?**
+3. **What are the best practices for Role-based access control (RBAC)?**
+4. **What retry policies should be used for API network requests?**
+
+### **💾 State Management**
+
+1. **How can you share page state changes with another user?**
+2. **How should Local Storage, Session Storage, IndexDB, and Cache be managed efficiently?**
+3. **What is the Broadcast Channel API, and how can it be used?**
+
+### **🛡️ Security**
+
+1. **How can CSRF and XSS attacks be prevented?**
+2. **What are important cookie flags? (`SameSite`, `HttpOnly`, `Secure`)**
+3. **Can cookies be set from the server? Why and how?**
 
 ---
 
@@ -101,4 +143,4 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 ✅ Any edits or suggestions are welcome!  
 ✅ Follow this repository to stay updated with the latest questions.
 
-💡 **GitHub Repository:** ["https://github.com/sepehr1628/Next-js-interview-questions"]
+💡 **GitHub Repository:** [https://github.com/sepehr1628/Next-js-interview-questions]
