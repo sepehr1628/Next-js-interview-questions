@@ -77,3 +77,20 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 3. **How do you optimize images in Next.js?**
 
 ---
+
+## **🚀 [Advanced](#-questions-in-persian) Level**
+
+✅ These questions are for developers aiming for a **Senior Next.js Developer** position.
+
+### **🟢 Next.js Core**
+
+1. **How do you build a design system for Next.js components?**
+2. **How does `React Server Components (RSC)` work in Next.js?**
+3. **Why should we use the `"use server"` directive in server actions?**
+
+### **⚡ Performance**
+
+1. **How should browser caching and Service Worker caching be handled?**
+2. **How can bundle size be optimized in a Next.js project with more than 50 pages?**
+
+---
