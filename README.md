@@ -19,103 +19,145 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 # **🌍 Questions in English**
 
-## **🔰 [Intermediate](#-questions-in-intermediate-level) Level**
+## **🔰 Intermediate Level**
 
 ✅ These questions are designed for developers familiar with Next.js and looking to strengthen their skills.
 
 ### **🟢 Next.js Core**
 
-1.  **What is Next.js, and what are its key features?**
+#### **1️⃣ What is Next.js, and what are its key features?**
 
-**What is Next.js?**
+> **Answer:**  
+> Next.js is a React framework that enables server-side rendering (SSR), static site generation (SSG), and client-side rendering (CSR) out of the box. It simplifies building optimized, production-ready React applications by handling routing, API integration, and performance optimizations.
 
-Next.js is a React framework that enables server-side rendering (SSR), static site generation (SSG), and client-side rendering (CSR) out of the box. It simplifies building optimized, production-ready React applications by handling routing, API integration, and performance optimizations.
+🔹 **Key Features:**
 
-**Key Features of Next.js**
-
-♦ File-Based Routing
-
-♦ Pre-Rendering (SSG & SSR)
-
-♦ API Routes
-
-♦ Image Optimization
-
-♦ Middleware
-
-♦ Internationalization (i18n)
-
-♦ Incremental Static Regeneration (ISR)
-
-♦ Built-in CSS and Sass Support
-
-♦ Fast Refresh & Automatic Code Splitting
-
-♦ Edge & Serverless Deployments
-
-2.  **How does Next.js improve performance compared to traditional React apps?**
-
-**Next.js optimizes performance by providing server-side rendering (SSR), static site generation (SSG), automatic code splitting, image optimization, and built-in API routes. These features enhance speed, SEO, and user experience compared to traditional React apps, which rely on client-side rendering (CSR).**
-
-**Key Performance Enhancements**
-
-♣ Pre-Rendering (SSG & SSR) – Generates pages ahead of time, reducing client-side work.
-
-♣ Automatic Code Splitting – Loads only necessary JavaScript, reducing bundle size.
-
-♣ Image Optimization – Uses next/image for responsive, lazy-loaded images.
-
-♣ Built-in API Routes – Eliminates the need for a separate backend server.
-
-♣ Middleware & Edge Functions – Executes logic closer to users, improving response times.
-
-3.  **What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
-4.  **What is Incremental Static Regeneration (ISR), and how does it work?**
-5.  **How do you create a new page in Next.js?**
-
-### **⚡ Performance**
-
-1. **How can you optimize a Next.js application?**
-2. **What caching strategies are used in the browser?**
-3. **How do you optimize images in Next.js?**
+- 📁 **File-Based Routing**
+- ⚡ **Pre-Rendering (SSG & SSR)**
+- 🌐 **API Routes**
+- 🖼 **Image Optimization**
+- 🔄 **Middleware**
+- 🌍 **Internationalization (i18n)**
+- 🔁 **Incremental Static Regeneration (ISR)**
+- 🎨 **Built-in CSS and Sass Support**
+- 🔥 **Fast Refresh & Automatic Code Splitting**
+- ☁️ **Edge & Serverless Deployments**
 
 ---
 
-## **🚀 [Advanced](#-questions-in-advanced-level) Level**
+#### **2️⃣ How does Next.js improve performance compared to traditional React apps?**
+
+> **Answer:**  
+> Next.js improves performance through **server-side rendering (SSR), static site generation (SSG), automatic code splitting, image optimization, and built-in API routes**. These optimizations enhance speed, SEO, and user experience compared to traditional React apps that rely solely on client-side rendering (CSR).
+
+🔹 **Key Performance Enhancements:**
+
+- ✅ **Pre-Rendering (SSG & SSR)** – Generates pages ahead of time, reducing client-side work.
+- ✅ **Automatic Code Splitting** – Loads only necessary JavaScript, reducing bundle size.
+- ✅ **Image Optimization** – Uses `next/image` for responsive, lazy-loaded images.
+- ✅ **Built-in API Routes** – Eliminates the need for a separate backend server.
+- ✅ **Middleware & Edge Functions** – Executes logic closer to users, improving response times.
+
+---
+
+#### **3️⃣ What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
+
+> **Answer:**
+>
+> - **SSG (Static Site Generation)** pre-builds pages at **build time**, serving static HTML files with minimal processing. Best for blogs, documentation, and marketing pages.
+> - **SSR (Server-Side Rendering)** generates pages **on request**, making it suitable for dynamic content like dashboards and personalized feeds.
+
+---
+
+#### **4️⃣ What is Incremental Static Regeneration (ISR), and how does it work?**
+
+> **Answer:**  
+> ISR allows you to update static pages **without rebuilding the entire app**. It works by regenerating pages **in the background** while keeping existing users on the cached version.
+
+🔹 **Example:**
+
+```tsx
+export const getStaticProps = async () => ({
+  props: { time: new Date().toISOString() },
+  revalidate: 10, // Rebuild every 10 seconds
+});
+```
+
+---
+
+#### **5️⃣ How do you create a new page in Next.js?**
+
+> **Answer:**  
+> Simply add a file inside the `pages/` directory. Next.js automatically generates a route for it.
+
+🔹 **Example:**
+
+```tsx
+// pages/about.tsx
+export default function About() {
+  return <h1>About Page</h1>;
+}
+```
+
+🛠️ **Access URL:** `/about`
+
+---
+
+## **🚀 Advanced Level**
 
 ✅ These questions are for developers aiming for a **Senior Next.js Developer** position.
 
 ### **🟢 Next.js Core**
 
-1. **How do you build a design system for Next.js components?**
-2. **How does `React Server Components (RSC)` work in Next.js?**
-3. **Why should we use the `"use server"` directive in server actions?**
+#### **1️⃣ How do you build a design system for Next.js components?**
+
+#### **2️⃣ How does `React Server Components (RSC)` work in Next.js?**
+
+#### **3️⃣ Why should we use the `"use server"` directive in server actions?**
+
+---
 
 ### **⚡ Performance**
 
-1. **How should browser caching and Service Worker caching be handled?**
-2. **How can bundle size be optimized in a Next.js project with more than 50 pages?**
-3. **What rendering patterns exist in React, and when should each be used?**
-4. **How do you efficiently render a chat application when the number of messages reaches 1000+ without performance issues?**
+#### **1️⃣ How should browser caching and Service Worker caching be handled?**
+
+#### **2️⃣ How can bundle size be optimized in a Next.js project with more than 50 pages?**
+
+#### **3️⃣ What rendering patterns exist in React, and when should each be used?**
+
+#### **4️⃣ How do you efficiently render a chat application when the number of messages reaches 1000+ without performance issues?**
+
+---
 
 ### **🔐 Authentication & Authorization**
 
-1. **What authentication system can be implemented for a client-side app?**
-2. **How should access tokens and refresh tokens be managed?**
-3. **What are the best practices for Role-based access control (RBAC)?**
-4. **What retry policies should be used for API network requests?**
+#### **1️⃣ What authentication system can be implemented for a client-side app?**
+
+#### **2️⃣ How should access tokens and refresh tokens be managed?**
+
+#### **3️⃣ What are the best practices for Role-based access control (RBAC)?**
+
+#### **4️⃣ What retry policies should be used for API network requests?**
+
+---
 
 ### **💾 State Management**
 
-1. **How can you share page state changes with another user?**
-2. **How should Local Storage, Session Storage, IndexDB, and Cache be managed efficiently?**
-3. **What is the Broadcast Channel API, and how can it be used?**
+#### **1️⃣ How can you share page state changes with another user?**
+
+#### **2️⃣ How should Local Storage, Session Storage, IndexDB, and Cache be managed efficiently?**
+
+#### **3️⃣ What is the Broadcast Channel API, and how can it be used?**
+
+---
 
 ### **🛡️ Security**
 
-1. **How can CSRF and XSS attacks be prevented?**
-2. **What are important cookie flags? (`SameSite`, `HttpOnly`, `Secure`)**
-3. **Can cookies be set from the server? Why and how?**
+#### **1️⃣ How can CSRF and XSS attacks be prevented?**
+
+#### **2️⃣ What are important cookie flags? (`SameSite`, `HttpOnly`, `Secure`)**
+
+#### **3️⃣ Can cookies be set from the server? Why and how?**
 
 ---
 
