@@ -32,20 +32,45 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 🔹 **Key Features:**
 
-- 📁 **File-Based Routing**
-- ⚡ **Pre-Rendering (SSG & SSR)**
-- 🌐 **API Routes**
-- 🖼 **Image Optimization**
-- 🔄 **Middleware**
-- 🌍 **Internationalization (i18n)**
-- 🔁 **Incremental Static Regeneration (ISR)**
-- 🎨 **Built-in CSS and Sass Support**
-- 🔥 **Fast Refresh & Automatic Code Splitting**
-- ☁️ **Edge & Serverless Deployments**
+- **File-Based Routing**
+- **Pre-Rendering (SSG & SSR)**
+- **API Routes**
+- **Image Optimization**
+- **Middleware**
+- **Internationalization (i18n)**
+- **Incremental Static Regeneration (ISR)**
+- **Built-in CSS and Sass Support**
+- **Fast Refresh & Automatic Code Splitting**
+- **Edge & Serverless Deployments**
 
 ---
 
-#### **2️⃣ How does Next.js improve performance compared to traditional React apps?**
+#### **2️⃣ What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
+
+> **Answer:**
+>
+> - **SSG (Static Site Generation)** pre-builds pages at **build time**, serving static HTML files with minimal processing. Best for blogs, documentation, and marketing pages.
+> - **SSR (Server-Side Rendering)** generates pages **on request**, making it suitable for dynamic content like dashboards and personalized feeds.
+
+---
+
+#### **3️⃣ What is Incremental Static Regeneration (ISR), and how does it work?**
+
+> **Answer:**  
+> ISR allows you to update static pages **without rebuilding the entire app**. It works by regenerating pages **in the background** while keeping existing users on the cached version.
+
+---
+
+#### **4️⃣ How do you create a new page in Next.js?**
+
+> **Answer:**  
+> Simply add a file inside the `pages/` directory. Next.js automatically generates a route for it.
+
+---
+
+### **⚡ Performance**
+
+#### **1️⃣ How does Next.js improve performance compared to traditional React apps?**
 
 > **Answer:**  
 > Next.js improves performance through **server-side rendering (SSR), static site generation (SSG), automatic code splitting, image optimization, and built-in API routes**. These optimizations enhance speed, SEO, and user experience compared to traditional React apps that rely solely on client-side rendering (CSR).
@@ -60,48 +85,16 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 ---
 
-#### **3️⃣ What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
+#### **2️⃣ What caching strategies exist for storing data in the browser?**
 
 > **Answer:**
->
-> - **SSG (Static Site Generation)** pre-builds pages at **build time**, serving static HTML files with minimal processing. Best for blogs, documentation, and marketing pages.
-> - **SSR (Server-Side Rendering)** generates pages **on request**, making it suitable for dynamic content like dashboards and personalized feeds.
+> Let's recap all common Browser Caching Strategies in Next.js:
+> HTTP Caching (Cache-Control & CDN Caching) : Next.js automatically optimizes static assets using **CDN caching**.
+> ISR for page caching : ISR enables caching of static pages while allowing updates at specific intervals.
+> Client-Side Caching with SWR (Stale-While-Revalidate) : Next.js recommends SWR for efficient client-side data fetching and caching.
+> Service Worker & PWA Caching : Use Next.js PWA plugin to cache assets and API responses for offline access.
 
----
-
-#### **4️⃣ What is Incremental Static Regeneration (ISR), and how does it work?**
-
-> **Answer:**  
-> ISR allows you to update static pages **without rebuilding the entire app**. It works by regenerating pages **in the background** while keeping existing users on the cached version.
-
-🔹 **Example:**
-
-```tsx
-export const getStaticProps = async () => ({
-  props: { time: new Date().toISOString() },
-  revalidate: 10, // Rebuild every 10 seconds
-});
-```
-
----
-
-#### **5️⃣ How do you create a new page in Next.js?**
-
-> **Answer:**  
-> Simply add a file inside the `pages/` directory. Next.js automatically generates a route for it.
-
-🔹 **Example:**
-
-```tsx
-// pages/about.tsx
-export default function About() {
-  return <h1>About Page</h1>;
-}
-```
-
-🛠️ **Access URL:** `/about`
-
----
+3.  **چگونه می‌توان تصاویر را در Next.js بهینه کرد؟**
 
 ## **🚀 Advanced Level**
 
