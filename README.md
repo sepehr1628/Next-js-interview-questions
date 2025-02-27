@@ -25,11 +25,53 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 ### **🟢 Next.js Core**
 
-1. **What is Next.js, and what are its key features?**
-2. **How does Next.js improve performance compared to traditional React apps?**
-3. **What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
-4. **What is Incremental Static Regeneration (ISR), and how does it work?**
-5. **How do you create a new page in Next.js?**
+1.  **What is Next.js, and what are its key features?**
+
+**What is Next.js?**
+
+Next.js is a React framework that enables server-side rendering (SSR), static site generation (SSG), and client-side rendering (CSR) out of the box. It simplifies building optimized, production-ready React applications by handling routing, API integration, and performance optimizations.
+
+**Key Features of Next.js**
+
+♦ File-Based Routing
+
+♦ Pre-Rendering (SSG & SSR)
+
+♦ API Routes
+
+♦ Image Optimization
+
+♦ Middleware
+
+♦ Internationalization (i18n)
+
+♦ Incremental Static Regeneration (ISR)
+
+♦ Built-in CSS and Sass Support
+
+♦ Fast Refresh & Automatic Code Splitting
+
+♦ Edge & Serverless Deployments
+
+2.  **How does Next.js improve performance compared to traditional React apps?**
+
+**Next.js optimizes performance by providing server-side rendering (SSR), static site generation (SSG), automatic code splitting, image optimization, and built-in API routes. These features enhance speed, SEO, and user experience compared to traditional React apps, which rely on client-side rendering (CSR).**
+
+**Key Performance Enhancements**
+
+♣ Pre-Rendering (SSG & SSR) – Generates pages ahead of time, reducing client-side work.
+
+♣ Automatic Code Splitting – Loads only necessary JavaScript, reducing bundle size.
+
+♣ Image Optimization – Uses next/image for responsive, lazy-loaded images.
+
+♣ Built-in API Routes – Eliminates the need for a separate backend server.
+
+♣ Middleware & Edge Functions – Executes logic closer to users, improving response times.
+
+3.  **What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
+4.  **What is Incremental Static Regeneration (ISR), and how does it work?**
+5.  **How do you create a new page in Next.js?**
 
 ### **⚡ Performance**
 
