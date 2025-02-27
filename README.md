@@ -17,6 +17,66 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 ---
 
+# **🌍 Questions in English**
+
+## **🔰 [Intermediate](#-questions-in-intermediate-level) Level**
+
+✅ These questions are designed for developers familiar with Next.js and looking to strengthen their skills.
+
+### **🟢 Next.js Core**
+
+1. **What is Next.js, and what are its key features?**
+2. **How does Next.js improve performance compared to traditional React apps?**
+3. **What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
+4. **What is Incremental Static Regeneration (ISR), and how does it work?**
+5. **How do you create a new page in Next.js?**
+
+### **⚡ Performance**
+
+1. **How can you optimize a Next.js application?**
+2. **What caching strategies are used in the browser?**
+3. **How do you optimize images in Next.js?**
+
+---
+
+## **🚀 [Advanced](#-questions-in-advanced-level) Level**
+
+✅ These questions are for developers aiming for a **Senior Next.js Developer** position.
+
+### **🟢 Next.js Core**
+
+1. **How do you build a design system for Next.js components?**
+2. **How does `React Server Components (RSC)` work in Next.js?**
+3. **Why should we use the `"use server"` directive in server actions?**
+
+### **⚡ Performance**
+
+1. **How should browser caching and Service Worker caching be handled?**
+2. **How can bundle size be optimized in a Next.js project with more than 50 pages?**
+3. **What rendering patterns exist in React, and when should each be used?**
+4. **How do you efficiently render a chat application when the number of messages reaches 1000+ without performance issues?**
+
+### **🔐 Authentication & Authorization**
+
+1. **What authentication system can be implemented for a client-side app?**
+2. **How should access tokens and refresh tokens be managed?**
+3. **What are the best practices for Role-based access control (RBAC)?**
+4. **What retry policies should be used for API network requests?**
+
+### **💾 State Management**
+
+1. **How can you share page state changes with another user?**
+2. **How should Local Storage, Session Storage, IndexDB, and Cache be managed efficiently?**
+3. **What is the Broadcast Channel API, and how can it be used?**
+
+### **🛡️ Security**
+
+1. **How can CSRF and XSS attacks be prevented?**
+2. **What are important cookie flags? (`SameSite`, `HttpOnly`, `Secure`)**
+3. **Can cookies be set from the server? Why and how?**
+
+---
+
 # **📝 Questions in Persian**
 
 ## **🔰 [Intermediate](#-questions-in-english-intermediate) Level**
@@ -77,71 +137,12 @@ Questions are divided into two levels: **[Intermediate](#-questions-in-intermedi
 
 ---
 
-# **🌍 Questions in English**
-
-## **🔰 [Intermediate](#-questions-in-persian) Level**
-
-✅ These questions are designed for developers familiar with Next.js and looking to strengthen their skills.
-
-### **🟢 Next.js Core**
-
-1. **What is Next.js, and what are its key features?**
-2. **How does Next.js improve performance compared to traditional React apps?**
-3. **What is the difference between Static Site Generation (SSG) and Server-Side Rendering (SSR)?**
-4. **What is Incremental Static Regeneration (ISR), and how does it work?**
-5. **How do you create a new page in Next.js?**
-
-### **⚡ Performance**
-
-1. **How can you optimize a Next.js application?**
-2. **What caching strategies are used in the browser?**
-3. **How do you optimize images in Next.js?**
-
----
-
-## **🚀 [Advanced](#-questions-in-persian) Level**
-
-✅ These questions are for developers aiming for a **Senior Next.js Developer** position.
-
-### **🟢 Next.js Core**
-
-1. **How do you build a design system for Next.js components?**
-2. **How does `React Server Components (RSC)` work in Next.js?**
-3. **Why should we use the `"use server"` directive in server actions?**
-
-### **⚡ Performance**
-
-1. **How should browser caching and Service Worker caching be handled?**
-2. **How can bundle size be optimized in a Next.js project with more than 50 pages?**
-3. **What rendering patterns exist in React, and when should each be used?**
-4. **How do you efficiently render a chat application when the number of messages reaches 1000+ without performance issues?**
-
-### **🔐 Authentication & Authorization**
-
-1. **What authentication system can be implemented for a client-side app?**
-2. **How should access tokens and refresh tokens be managed?**
-3. **What are the best practices for Role-based access control (RBAC)?**
-4. **What retry policies should be used for API network requests?**
-
-### **💾 State Management**
-
-1. **How can you share page state changes with another user?**
-2. **How should Local Storage, Session Storage, IndexDB, and Cache be managed efficiently?**
-3. **What is the Broadcast Channel API, and how can it be used?**
-
-### **🛡️ Security**
-
-1. **How can CSRF and XSS attacks be prevented?**
-2. **What are important cookie flags? (`SameSite`, `HttpOnly`, `Secure`)**
-3. **Can cookies be set from the server? Why and how?**
-
----
-
 ## **📌 Contributing to the Project**
+
+❗
 
 ✅ If you have a new question, feel free to submit a **Pull Request** or open a **New Issue**.  
 ✅ Any edits or suggestions are welcome!  
 ✅ Star this repository to stay updated with the latest questions.
 
-💡 **GitHub Repository:** https://github.com/sepehr1628/Next-js-interview-questions
 💡 **Author contact:** Sepehr1628@gmail.com
